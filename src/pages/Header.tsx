@@ -37,11 +37,11 @@ const Header = () => {
         </div>
 
         <nav className="nav-links" aria-label="Primary navigation">
-          <a href="#features">About</a>
-          <a href="#voice-demo">Services</a>
-          <a href="#voice-demo">Today's Rate</a>
-          <a href="#pricing">Gallery</a>
-          <a href="#faq">Contact</a>
+          <a href="#abt">About</a>
+          <a href="#svs">Services</a>
+          <a href="#tdr">Today's Rate</a>
+          <a href="#lca">Gallery</a>
+          <a href="#cta">Contact</a>
         </nav>
 
         {/* <div className="header-cta">

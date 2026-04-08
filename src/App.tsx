@@ -22,6 +22,7 @@ import Services from "./pages/Services";
 import GoldRate from "./pages/GoldRate";
 import Location from "./pages/Location";
 import WorkingHours from "./pages/WorkingHours";
+import ContactUs from "./pages/ContactUs";
 
 function App({ children }: PropsWithChildren) {
   const [showButton, setShowButton] = useState(false);
@@ -76,6 +77,7 @@ function App({ children }: PropsWithChildren) {
         <GoldRate/>
         <Location/>
         <WorkingHours/>
+        <ContactUs/>
         {/* <Trusted />
         <VoiceDemo />
         <Features />

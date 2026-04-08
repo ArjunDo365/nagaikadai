@@ -15,7 +15,7 @@ const GoldRate = () => {
 
   return (
     <>
-      <div className="prose bg-[#f1f2f3] px-4 py-9 sm:px-8 sm:py-16 rounded max-w-full dark:bg-[#1b2e4b] dark:text-white-light w-full mb-5">
+      <div id="tdr" className="prose bg-[#f1f2f3] px-4 py-9 sm:px-8 sm:py-16 rounded max-w-full dark:bg-[#1b2e4b] dark:text-white-light w-full mb-5">
         <h2 className="text-dark mt-4 mb-3 text-center text-5xl dark:text-white-light">
           Gold Rates
         </h2>
@@ -66,7 +66,7 @@ const GoldRate = () => {
           Image Download 4
         </button>
       </div>
-      <div className="mt-6 flex items-center justify-center w-full">
+      <div className="mt-6 flex items-center justify-center w-full mb-6">
         <button type="button" className="btn btn-warning w-[500px]" onClick={() => downloadImage("poster.png")}>
           Poster Download
         </button>

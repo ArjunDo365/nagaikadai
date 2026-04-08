@@ -11,7 +11,7 @@ const services = [
 
 const Services = () => {
   return (
-    <div className="bg-white px-4 py-9 sm:px-8 sm:py-16 rounded w-full mb-5 dark:bg-[#1b2e4b]">
+    <div id="svs" className="bg-white px-4 py-9 sm:px-8 sm:py-16 rounded w-full mb-5 dark:bg-[#1b2e4b]">
       <h2 className="text-center text-5xl mb-3 dark:text-white-light text-[#7B2D26]">
         Services
       </h2>
