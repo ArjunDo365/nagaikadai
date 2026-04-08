@@ -30,7 +30,7 @@ const Header = () => {
             </div>
           </div> */}
           <div className="brand-text">
-            <div className="brand-title">Nagaikadai Jewellers</div>
+            <div className="brand-title !text-[#7B2D26]">Nagaikadai Jewellers</div>
             {/* <div className="brand-subtitle">AI Voice Agent</div> */}
           </div>
           {/* <div className="brand-subtitle">AI Voice Agent</div> */}
