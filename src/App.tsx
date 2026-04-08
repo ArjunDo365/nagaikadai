@@ -18,6 +18,9 @@ import "./assets/css/styles.css";
 import JewelHero from "./pages/JewelHero";
 import { Phone } from "lucide-react";
 import AboutUs from "./pages/AboutUs";
+import Services from "./pages/Services";
+import GoldRate from "./pages/GoldRate";
+import Location from "./pages/Location";
 
 function App({ children }: PropsWithChildren) {
   const [showButton, setShowButton] = useState(false);
@@ -68,6 +71,9 @@ function App({ children }: PropsWithChildren) {
         {/* <Hero /> */}
         <JewelHero />
         <AboutUs/>
+        <Services/>
+        <GoldRate/>
+        <Location/>
         {/* <Trusted />
         <VoiceDemo />
         <Features />
