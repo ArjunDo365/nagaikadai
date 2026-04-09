@@ -8,7 +8,7 @@ const WorkingHours = () => {
       </div>
       <div>
         <div className="space-y-6">
-          <div className="flex">
+          <div className="flex items-center">
             <span className="shrink-0 grid place-content-center text-base w-9 h-9 rounded-md bg-success-light dark:bg-success text-success dark:text-success-light">
               Mo
             </span>
@@ -20,7 +20,7 @@ const WorkingHours = () => {
               09:00 AM to 05:00 PM
             </span>
           </div>
-          <div className="flex">
+          <div className="flex items-center">
             <span className="shrink-0 grid place-content-center text-base w-9 h-9 rounded-md bg-success-light dark:bg-success text-success dark:text-success-light">
               TU
             </span>
@@ -32,7 +32,7 @@ const WorkingHours = () => {
               09:00 AM to 05:00 PM
             </span>
           </div>
-          <div className="flex">
+          <div className="flex items-center">
             <span className="shrink-0 grid place-content-center text-base w-9 h-9 rounded-md bg-success-light dark:bg-success text-success dark:text-success-light">
               WE
             </span>
@@ -44,7 +44,7 @@ const WorkingHours = () => {
               09:00 AM to 05:00 PM
             </span>
           </div>
-          <div className="flex">
+          <div className="flex items-center">
             <span className="shrink-0 grid place-content-center text-base w-9 h-9 rounded-md bg-success-light dark:bg-success text-success dark:text-success-light">
               TH
             </span>
@@ -56,7 +56,7 @@ const WorkingHours = () => {
               09:00 AM to 05:00 PM
             </span>
           </div>
-          <div className="flex">
+          <div className="flex items-center">
             <span className="shrink-0 grid place-content-center text-base w-9 h-9 rounded-md bg-success-light dark:bg-success text-success dark:text-success-light">
               FR
             </span>
@@ -68,7 +68,7 @@ const WorkingHours = () => {
               09:00 AM to 05:00 PM
             </span>
           </div>
-          <div className="flex">
+          <div className="flex items-center">
             <span className="shrink-0 grid place-content-center text-base w-9 h-9 rounded-md bg-success-light dark:bg-success text-success dark:text-success-light">
               SA
             </span>
@@ -80,7 +80,7 @@ const WorkingHours = () => {
               09:00 AM to 05:00 PM
             </span>
           </div>
-          <div className="flex">
+          <div className="flex items-center">
             <span className="shrink-0 grid place-content-center text-base w-9 h-9 rounded-md bg-success-light dark:bg-success text-success dark:text-success-light">
               SU
             </span>

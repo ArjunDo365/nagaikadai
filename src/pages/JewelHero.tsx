@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import { Navigation, Pagination } from 'swiper/modules';
+import { Navigation, Pagination,Autoplay } from 'swiper/modules';
 import c1 from "../assets/images/c1.jpg";
 import c2 from "../assets/images/c2.jpg";
 import c3 from "../assets/images/c3.jpg";
@@ -18,10 +18,12 @@ const JewelHero = () => {
       <div className="swiper w-full h-[600px]" id="slider4">
         <div className="swiper-wrapper">
           <Swiper
-            modules={[Navigation, Pagination]}
+          
+            modules={[Navigation, Pagination,Autoplay ]}
             slidesPerView={1}
             spaceBetween={30}
             loop={true}
+            autoplay={{ delay: 2000 }}
             // pagination={{
             //   clickable: true,
             //   type: "fraction",
